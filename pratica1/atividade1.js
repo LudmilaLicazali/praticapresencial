@@ -3,7 +3,7 @@
 let prompt = require ('prompt-sync')()
 
 
-// Apresentando quais opções estão ddiponiveis para ecolha
+// Apresentando quais opções estão disponiveis para escolha
 
 console.log("Serviços disponiveis:");
     
@@ -29,7 +29,7 @@ operacao = parseInt(prompt("Escolha a operação (+ - / * ): "));
                                             " 3 para divisão (/)" + 
                                             " ou 4 para multiplicação (*)");
             } 
-//Se não solicita que escolha novamente a operação desejada. e se for correto ai então solicita o segundo valor
+//Se não solicita que escolha novamente a operação desejada e se for correto ai então solicita o segundo valor
 operacao = parseInt(prompt("Escolha a operação (+ - / * ): ")); 
 
 valor2 = parseInt(prompt("Digite 2º valor: "))   
